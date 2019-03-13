@@ -1,0 +1,92 @@
+body {
+    background-color: #eeeeee;
+    font-family: 'Roboto', 'Noto Sans TC';
+    font-size: 13pt;
+    padding-top: 1rem;
+}
+
+/* [start] override Bootstrap */
+@media (min-width: 1200px) {
+    .container {
+        max-width: 960px;
+    }
+}
+
+.carousel-control-next, .carousel-control-prev {
+    background: rgba(255, 255, 255, 0.3);
+}
+
+.carousel-indicators li {
+    border: 1px solid black;
+}
+/* [end] override Bootstrap */
+
+/* [start] gutter */
+.first-row-first-col-gutter, .first-row-second-col-gutter {
+    padding: 2rem 2rem 1rem 2rem;
+}
+
+.first-col-gutter, .second-col-gutter {
+    padding: 1rem 2rem 1rem 2rem;
+}
+
+.first-col-gutter:after {
+    content: '';
+    background: #6C747C;
+    position: absolute;
+    top: 0;
+    left: 10%;
+    height: 2px;
+    width: 80%;
+}
+
+.second-col-gutter:after {
+    content: '';
+    background: #6C747C;
+    position: absolute;
+    top: 0;
+    left: 4%;
+    height: 2px;
+    width: 92%;
+}
+/* [end] gutter */
+
+/* [start] ImageBox */
+.imageBox {
+    background: white;
+    position: relative;
+    text-align: center;
+    width: 100%;
+}
+
+.imageBox img {
+    opacity: 1;
+    transition: 0.5s opacity;
+}
+
+.imageBox .imageDesc {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.6);
+    bottom: 0px;
+    left: 0px;
+    padding: 10px 15px;
+    position: absolute;
+    transition: 0.5s padding;
+    text-align: center;
+    width: 100%;
+}
+
+.imageBox:hover img {
+    opacity: 0.6;
+}
+
+.imageBox:hover .imageDesc {
+    padding-bottom: 5%;
+}
+/* [end] ImageBox */
+
+@media print {
+    body {
+        -webkit-print-color-adjust: exact;
+    }
+}
