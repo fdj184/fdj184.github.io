@@ -49,6 +49,10 @@ body {
     height: 2px;
     width: 92%;
 }
+
+.vertical-gutter {
+    padding-bottom: 1rem;
+}
 /* [end] gutter */
 
 /* [start] ImageBox */
