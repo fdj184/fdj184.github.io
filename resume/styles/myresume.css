@@ -93,4 +93,23 @@ body {
     body {
         -webkit-print-color-adjust: exact;
     }
+
+    .col-print-4 {
+        flex: 0 0 33.333333%;
+        max-width: 33.333333%;
+    }
+
+    .col-print-6 {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+
+    .col-print-8 {
+        flex: 0 0 66.666667%;
+        max-width: 66.666667%;
+    }
+
+    .avoid-page-break {
+        page-break-inside: avoid;
+    }
 }
