@@ -89,6 +89,32 @@ body {
 }
 /* [end] ImageBox */
 
+/* [start] Feature Button */
+#btnPrint {
+    bottom : 10px;
+    right : 10px;
+    position: fixed;
+}
+
+#btnPDF {
+    bottom : 70px;
+    right : 10px;
+    position: fixed;
+}
+
+.btn-circle-lg {
+    width: 50px;
+    height: 50px;
+    padding: .5rem;
+    border-radius: 25px;
+    opacity: 0.7;
+}
+
+.btn-circle-lg:hover {
+    opacity: 1;
+}
+/* [end] Feature Button */
+
 @media print {
     body {
         -webkit-print-color-adjust: exact;
