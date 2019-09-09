@@ -30,24 +30,26 @@ body {
     padding: 1rem 2rem 1rem 2rem;
 }
 
-.first-col-gutter:after {
-    content: '';
-    background: #6C747C;
-    position: absolute;
-    top: 0;
-    left: 10%;
-    height: 2px;
-    width: 80%;
-}
+@media (min-width: 767.98px) {
+    .first-col-gutter:after {
+        content: '';
+        background: #6C747C;
+        position: absolute;
+        top: 0;
+        left: 10%;
+        height: 2px;
+        width: 80%;
+    }
 
-.second-col-gutter:after {
-    content: '';
-    background: #6C747C;
-    position: absolute;
-    top: 0;
-    left: 4%;
-    height: 2px;
-    width: 92%;
+    .second-col-gutter:after {
+        content: '';
+        background: #6C747C;
+        position: absolute;
+        top: 0;
+        left: 4%;
+        height: 2px;
+        width: 92%;
+    }
 }
 
 .vertical-gutter {
