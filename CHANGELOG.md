@@ -1,5 +1,12 @@
 # Changelog
 
+## v1.4.1 [2020/06/20]
+
+### Changed
+
+- 更新已從 Moshi 離職
+- 更新PDF
+
 ## v1.4.0 [2020/06/04]
 
 ### Changed
